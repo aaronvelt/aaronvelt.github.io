@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 1
-date: 2024
+date: 2014-07-18
 img: Necromania.png
 alt: image-alt
 project-date: 2024
