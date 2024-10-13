@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 1
+modal-id: 7
 date: 2024
 img: Necromania.png
 alt: image-alt
