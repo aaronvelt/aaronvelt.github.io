@@ -19,10 +19,18 @@
                 {% if post.description %}
                 <p>{{ post.description }}</p>
                 {% endif %}
-
-                <a href="#" style="background-color: #800080; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-family: Arial, sans-serif; font-size: 16px;">
+                {% if post.video %}
+                <br>
+                <a href="{{ post.video }}" style="background-color: #800080; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-family: Arial, sans-serif; font-size: 16px;">
                     Video Demo
                 </a>
+                {% endif %}
+                {% if post.download %}
+                <br>
+                <a href="{{ post.download }}" style="background-color: #800080; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-family: Arial, sans-serif; font-size: 16px;">
+                    Download
+                </a>
+                {% endif %}
                 <ul class="list-inline item-details">
                     {% if post.client %}
                     <li>
