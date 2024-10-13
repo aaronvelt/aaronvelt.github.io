@@ -1,11 +1,11 @@
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2024
 img: Necromania.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+project-date: 2024
+client: Exams/Personal
+category: Game Development
+description: The project I've been working on over the past year is an RTS-inspired roguelike game where you play as a necromancer controlling zombies. Each run is designed to give the player a unique experience while still maintaining the core gameplay.I achieve this through a procedural skill system that generates new skills for the player based on their character and magic discipline.These skills give the player the ability to experiment with new builds and adapt their playstyle.
 ---
