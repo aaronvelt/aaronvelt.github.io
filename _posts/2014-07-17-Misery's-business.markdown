@@ -7,7 +7,7 @@ alt: image-alt
 project-date: 2021
 client: School Project
 category: Game Development
-video: https://www.youtube.com/watch?v=seSVrvAC88s
+video: https://www.youtube.com/embed/seSVrvAC88s
 download: https://draganno.itch.io/miserys-business
 description: A 3D Adventure game where the player has to deliver mail to check points without being spotted by an ever searching spotlight.
 ---
