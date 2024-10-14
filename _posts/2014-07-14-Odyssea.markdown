@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 5
+date: 2014-07-14
+img: odyssea.png
+alt: image-alt
+project-date: 2022
+client: The Stockholm resilience center(SRC)
+category: Game Development
+video: https://www.youtube.com/watch?v=7KGdKNcUNR4
+download: https://drive.google.com/file/d/17uEflB2W2URPO7M-u4zX0ynTK74E2HU8
+description: A 3D metroidvania game where the player plays as an alien stranded underwater trying to repair its ship to go back home. An interesting development was the combination of Audio and gameplay. One of the mechanics I implemented was a minigame to match the frequency of a sound by pointing the joysticks to the correct positions.
+---
