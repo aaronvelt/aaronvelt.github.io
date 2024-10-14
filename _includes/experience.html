@@ -1,0 +1,128 @@
+<section id="work-experience" class="my-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Work Experience</h2>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="timeline">
+                    <!-- Experience 1 -->
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h4>Senior Software Developer</h4>
+                            <p><strong>Jan 2020 - Present</strong></p>
+                            <p>Working with Unity and C# to develop high-performance, interactive 3D applications for AR/VR environments.</p>
+                        </div>
+                    </div>
+
+                    <!-- Experience 2 -->
+                    <div class="timeline-item right">
+                        <div class="timeline-content">
+                            <h4>Game Developer</h4>
+                            <p><strong>Jun 2017 - Dec 2019</strong></p>
+                            <p>Developed AAA-level games in Unreal Engine using C++ and collaborated with designers and artists to deliver high-quality game mechanics.</p>
+                        </div>
+                    </div>
+
+                    <!-- Experience 3 -->
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h4>Software Engineer</h4>
+                            <p><strong>Jul 2015 - May 2017</strong></p>
+                            <p>Built server-side solutions in Java and PHP, enhancing backend performance and optimizing database operations for e-commerce platforms.</p>
+                        </div>
+                    </div>
+
+                    <!-- Experience 4 -->
+                    <div class="timeline-item right">
+                        <div class="timeline-content">
+                            <h4>Junior Developer</h4>
+                            <p><strong>Aug 2013 - Jun 2015</strong></p>
+                            <p>Contributed to web development projects, creating dynamic web applications and maintaining codebases in PHP and JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .timeline {
+        position: relative;
+        margin: 20px 0;
+        padding: 0;
+        list-style: none;
+    }
+
+        .timeline:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #ddd;
+            left: 50%;
+            margin-left: -1px;
+        }
+
+    .timeline-item {
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+        .timeline-item .timeline-content {
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            position: relative;
+            width: 45%;
+        }
+
+        .timeline-item.left .timeline-content {
+            left: 0;
+            text-align: right;
+        }
+
+        .timeline-item.right .timeline-content {
+            left: 55%;
+            text-align: left;
+        }
+
+        .timeline-item .timeline-content:before {
+            content: '';
+            position: absolute;
+            top: 15px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+        }
+
+        .timeline-item.left .timeline-content:before {
+            right: -15px;
+            border-width: 10px 0 10px 10px;
+            border-color: transparent transparent transparent #f8f9fa;
+        }
+
+        .timeline-item.right .timeline-content:before {
+            left: -15px;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent #f8f9fa transparent transparent;
+        }
+
+    @media (max-width: 768px) {
+        .timeline:before {
+            left: 8%;
+        }
+
+        .timeline-item .timeline-content {
+            width: 90%;
+        }
+
+        .timeline-item.left .timeline-content {
+            left: 0;
+        }
+
+        .timeline-item.right .timeline-content {
+            left: 8%;
+        }
+    }
+</style>
