@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 4
+date: 2014-07-15
+img: gaca_caca.png
+alt: image-alt
+project-date: 2022
+client: School Project
+category: Game Development
+description: Gaca Caca is a first-person horror game where you play as a documentary filmmaker searching for a monster hidden in the forest. The goal is to take enough photographic evidence to show the world that the creature truly exists. However, the monster will also be hunting the player in the meantime. The player has a flashlight to see in the dark and a camera to capture evidence, which can also be used with night vision to see in the dark.
+---
